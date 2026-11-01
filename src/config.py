@@ -23,13 +23,7 @@ UNIVERSIDAD = "Universidad Central del Ecuador"
 FACULTAD = "Facultad de Ingeniería y Ciencias Aplicadas"
 ASIGNATURA = "Álgebra Lineal"
 PROGRAMA = "Calculadora de Álgebra Lineal"
-INTEGRANTES = [
-    "Gabriela Chacón",
-    "Marlon Cruz",
-    "Miryam Miranda",
-    "Atik Tontaquimba",
-    "Christopher Villón",
-]
+INTEGRANTES = []
 
 
 def texto_limites() -> str:
