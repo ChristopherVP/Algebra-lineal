@@ -259,7 +259,7 @@ def _portada(rep: R.Reporte, E):
     ]
     if rep.subtitulo:
         fl.append(_p(rep.subtitulo, E["sub"]))
-    filas = [[_p("Integrantes", E["meta_e"]), _p("\n".join(INTEGRANTES), E["meta_v"])]]
+    filas = []
     for etiqueta, valor in rep.meta:
         filas.append([_p(etiqueta, E["meta_e"]), _p(valor, E["meta_v"])])
     filas.append([_p("Fecha de emisión", E["meta_e"]), _p(f"{datetime.now():%d/%m/%Y  %H:%M}", E["meta_v"])])
