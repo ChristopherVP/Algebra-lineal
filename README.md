@@ -277,6 +277,6 @@ The tests cover:
 - PDF generation for every kind of report (valid `%PDF-` output).
 
 ## Author
-- Christopher Villón
+- Christopher Josué Villón Peralta
 
 Universidad Central del Ecuador · Faculty of Engineering and Applied Sciences · Linear Algebra
